@@ -1,0 +1,11 @@
+name: PrimeSim numl-api OpenAPI registry
+description: This repository contains the OpenAPI definitions for ML API from PrimeSim
+tags:
+- PrimeSim
+apis:
+- name: PrimeSim ML v1.0
+  description: The PrimeSim ML API offers a single endpoint, to perform miscellaneous ML tasks
+  baseUrl: https://numl.primesimulations.com/v1.0
+  properties:
+  - type: x-openapi
+    url: openapi/v1.0/openapi.yaml # can be the relative path on the repository or a publicly accessible URL
